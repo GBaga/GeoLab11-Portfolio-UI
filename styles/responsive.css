@@ -1,0 +1,134 @@
+@media (max-width: 768px) {
+  header {
+    padding: 20px 18px 12px 18px;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  .icon-menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  .main-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    row-gap: 38px;
+    margin: 33px 23px 58px 24px;
+  }
+
+  .h1-heading {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .h1-description {
+    height: auto;
+  }
+
+  .blue-section {
+    height: auto;
+    padding: 0 10px 38px 11px;
+  }
+
+  .blue-header {
+    max-width: 100%;
+    height: 60px;
+    justify-content: center;
+  }
+
+  .view-all {
+    display: none;
+  }
+
+  .blue-header .section-name,
+  .works-section .section-name {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .posts-container {
+    max-width: 858px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 17px;
+  }
+
+  .post {
+    max-width: 354px;
+    height: 266px;
+    padding: 12px 21px 22px 19px;
+  }
+
+  .post h2 {
+    width: 327px;
+    height: 60px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+  .p-line {
+    width: 100%;
+    height: 24px;
+    padding: 3px 0 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 12px 0 19px 0;
+  }
+
+  .p-line p {
+    font-size: 16px;
+  }
+
+  .post-decsription {
+    width: 314px;
+  }
+
+  .works-section {
+    max-width: 858px;
+    margin: auto;
+  }
+
+  .works-list {
+    max-width: 344px;
+    margin: auto;
+  }
+
+  .work {
+    display: flex;
+    gap: 18px;
+    height: auto;
+    flex-direction: column;
+    padding: 0 13px 0 18px;
+  }
+
+  .work .text-box .date-and-type {
+    gap: 22px;
+    margin: 16px 0 24px 0;
+  }
+
+  .work .text-box h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .work .text-box .date-and-type .date {
+    font-size: 16px;
+  }
+
+  .work .text-box .date-and-type .type {
+    font-size: 16px;
+    line-height: 23.5px;
+  }
+}

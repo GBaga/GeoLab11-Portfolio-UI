@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+}
+
+.nav-bar {
+  max-width: 1092px;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(32, 32, 210);
+}
+
+.nav-list {
+  display: flex;
+  gap: 33px;
+}
+
+.nav-list a {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29.38px;
+  color: #000;
+}
+
+.nav-list a:hover {
+  font-weight: 700;
+}
+
+.icon-menu {
+  display: none;
+}
+
+.main-container {
+  max-width: 858px;
+  margin: 158px auto 71px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.h1-heading {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #21243d;
+  max-width: 450px;
+}
+
+.h1-description {
+  max-width: 497px;
+  height: 66px;
+  margin: 40px 0px 38px 0px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  color: #21243d;
+}
+
+.download-btn {
+  width: 208px;
+  height: 47px;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #ff6464;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.4s ease;
+}
+
+.download-btn:hover {
+  opacity: 0.8;
+}
+
+.image-div {
+  width: 243px;
+  height: 243px;
+  position: relative;
+}
+
+.image-div img:last-child {
+  width: 243px;
+  height: 243px;
+  position: absolute;
+  top: 13px;
+  left: -5px;
+  z-index: -1;
+}
+
+.blue-section {
+  width: 100%;
+  height: 396px;
+  padding-bottom: 32px;
+  background-color: rgba(237, 247, 250, 1);
+}
+
+.blue-header {
+  max-width: 858px;
+  height: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.blue-header .section-name,
+.works-section .section-name {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 60px;
+  color: rgba(33, 36, 61, 1);
+}
+
+.blue-header a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  color: rgba(0, 168, 204, 1);
+}
+
+.blue-header a:hover {
+  font-weight: bold;
+}
+
+.posts-container {
+  max-width: 858px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post {
+  max-width: 418px;
+  height: 295px;
+  padding: 24px 27px 7px 23px;
+
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+}
+
+.post h2 {
+  width: 374px;
+  height: 85px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 38.19px;
+  color: rgba(33, 36, 61, 1);
+  cursor: pointer;
+}
+
+.post h2:hover {
+  filter: invert(0.5);
+}
+
+.p-line {
+  width: 100%;
+  height: 34px;
+  padding: 3px 0 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  margin: 17px 0 11px 0;
+}
+
+.p-line p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.44px;
+  color: rgba(33, 36, 61, 1);
+}
+
+.post-decsription {
+  width: 368px;
+  height: 117px;
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  color: rgba(33, 36, 61, 1);
+}
+
+.vertical-line {
+  width: 21px;
+  height: 1px;
+  margin: 0;
+  border: 0;
+  align-self: center;
+  transform: rotate(90deg);
+  background-color: #000;
+}
+
+.works-section {
+  max-width: 858px;
+  margin: auto;
+}
+
+.work {
+  display: flex;
+  gap: 18px;
+  height: 180px;
+}
+
+.work .text-box .date-and-type {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  margin: 16px 0 17px 0;
+}
+
+.work .text-box h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 44.06px;
+  color: rgba(33, 36, 61, 1);
+  cursor: pointer;
+}
+
+.work .text-box h2:hover {
+  filter: invert(0.5);
+}
+
+.work .text-box .date-and-type .date {
+  width: 62px;
+  height: 25px;
+  border-radius: 16px;
+  text-align: center;
+  align-content: center;
+
+  font-size: 18px;
+  font-weight: 900;
+  color: #fff;
+
+  background-color: rgba(20, 40, 80, 1);
+}
+
+.work .text-box .date-and-type .type {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29.38px;
+  color: rgba(134, 149, 164, 1);
+}
+
+.work .text-box .work-desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  color: rgba(33, 36, 61, 1);
+}
+
+.works-line {
+  max-width: 100%;
+  height: 1px;
+  margin: 35px auto 31px auto;
+  background-color: rgba(224, 224, 224, 1);
+}
+
+footer {
+  width: 100%;
+  height: 182px;
+  padding: 51px 0 54px 0;
+  margin-top: 83px;
+}
+
+.icon-container {
+  width: 232px;
+  height: 30px;
+  margin: auto;
+  margin-bottom: 26px;
+
+  display: flex;
+  gap: 35px;
+}
+
+.icon-container img {
+  cursor: pointer;
+}
+
+.icon-container img:hover {
+  filter: invert(0.5);
+}
+
+footer .copy-right {
+  width: 222px;
+  height: 21px;
+  margin: auto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.56px;
+}
